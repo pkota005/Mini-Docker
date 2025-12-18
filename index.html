@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Static Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background-color: #0d6efd;
+            color: #fff;
+            padding: 20px 40px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 14px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #222;
+            color: #bbb;
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 13px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background-color: #0d6efd;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background-color: #0b5ed7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Static Website</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="card" id="home">
+        <h2>Welcome</h2>
+        <p>This is a simple static HTML website. It does not require any backend or database and can be hosted on services like S3, GitHub Pages, Nginx, Apache, or any static hosting platform.</p>
+        <a href="#about" class="btn">Learn More</a>
+    </div>
+
+    <div class="card" id="about">
+        <h2>About Us</h2>
+        <p>We provide reliable and lightweight static web solutions. Static websites are fast, secure, and easy to maintain.</p>
+    </div>
+
+    <div class="card" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Static Website Development</li>
+            <li>Cloud Hosting (AWS / Azure / GCP)</li>
+            <li>Website Performance Optimization</li>
+            <li>SSL & Security Setup</li>
+        </ul>
+    </div>
+
+    <div class="card" id="contact">
+        <h2>Contact</h2>
+        <p>Email: support@example.com</p>
+        <p>Phone: +91-XXXXXXXXXX</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 My Static Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
